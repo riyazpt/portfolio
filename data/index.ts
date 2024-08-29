@@ -118,7 +118,7 @@ export const projects = [
     des: "MeetUp app Using nextjs and React Js and mongodb",
     img: "/project-meetup.png",
     iconLists: ["/next.svg", "/re.svg", "/tail.svg"],
-    link: "https://meet-up-eta.vercel.app/",
+    link: "https://meet-up-gamma.vercel.app/",
   },
   {
     id: 7,

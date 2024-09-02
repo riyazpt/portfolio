@@ -3,10 +3,13 @@ import {Spotlight} from "./ui/Spotlight";
 import {TextGenerateEffect} from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 import {FaLocationArrow} from "react-icons/fa";
+import {FaDownload} from "react-icons/fa6";
+import ContactSection from "./ContactSection";
 
+import Link from "next/link";
 function Hero() {
   return (
-    <div className="pb-20 pt-36">
+    <div className="pb-20 pt-1">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -19,7 +22,6 @@ function Hero() {
         <Spotlight className="top-28 left-80 h-[80vh] w-[50vw]" fill="blue" />
       </div>
       <div className="h-screen w-full dark:bg-black-100 bg-white  dark:bg-grid-white/[0.3] bg-grid-black/[0.2] absolute top-0 left-0 flex items-center justify-center">
-        {/* Radial gradient for the container to give a faded look */}
         <div
           className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
        absolute top-0 left-0 flex items-center justify-center"
@@ -32,20 +34,32 @@ function Hero() {
             Building and Scaling Modern Applications with Expertise
           </p>
           <TextGenerateEffect
-            words="Turning Complex Requirements into Elegant, Functional Solutions"
+            words="Hi! I'm Riyaz, a Full-Stack Developer based in UAE"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Riyaz, a Full-Stack Developer based in UAE.
-          </p>
-          <a href="#about">
-            <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a>
+          <div className="flex flex-row items-center space-x-4">
+            <Link href="#about">
+              <MagicButton
+                title="Show my work"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </Link>
+
+            <Link
+              href="/Riyas-Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <MagicButton
+                title="Download Resume"
+                icon={<FaDownload />}
+                position="right"
+              />
+            </Link>
+          </div>
+          <ContactSection />
         </div>
       </div>
     </div>

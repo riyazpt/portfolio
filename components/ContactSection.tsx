@@ -9,7 +9,6 @@ function ContactSection() {
         <FaMobileAlt className="mr-2" />
         <span>+971504323046</span>
       </div>
-      {/* Additional contact details or sections can go here */}
     </div>
   );
 }

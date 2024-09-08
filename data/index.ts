@@ -114,11 +114,11 @@ export const projects = [
   },
   {
     id: 6,
-    title: "Meet Up",
-    des: "MeetUp app Using nextjs and React Js and mongodb",
-    img: "/project-meetup.png",
+    title: "Recipe Hub",
+    des: "RecipeHub is a platform where foodies can share their favorite recipes and discover new dishes app Using nextjs and React Js and mongodb",
+    img: "/RecipeHub.png",
     iconLists: ["/next.svg", "/re.svg", "/tail.svg"],
-    link: "https://meet-up-gamma.vercel.app/",
+    link: "https://recipehub-ohtg9eft4-riyazpts-projects.vercel.app/",
   },
   {
     id: 7,
@@ -127,6 +127,14 @@ export const projects = [
     img: "/project-hoo-bank.png",
     iconLists: ["/next.svg", "/re.svg", "/tail.svg"],
     link: "https://hoo-bank-rose-nine.vercel.app/",
+  },
+  {
+    id: 8,
+    title: "Meet Up",
+    des: "MeetUp app Using nextjs and React Js and mongodb",
+    img: "/project-meetup.png",
+    iconLists: ["/next.svg", "/re.svg", "/tail.svg"],
+    link: "https://meet-up-gamma.vercel.app/",
   },
 ];
 

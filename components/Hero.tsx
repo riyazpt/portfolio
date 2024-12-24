@@ -34,7 +34,7 @@ function Hero() {
             Building and Scaling Modern Applications with Expertise
           </p>
           <TextGenerateEffect
-            words="Hi! I'm Riyaz, a Full-Stack Developer based in UAE"
+            words="Hi! I'm Riyaz, a Full-Stack Developer"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 

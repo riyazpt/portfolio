@@ -98,11 +98,11 @@ export const projects = [
   },
   {
     id: 4,
-    title: "",
-    des: "",
-    img: "",
+    title: "IFMS",
+    des: "Integrated Financial Management System",
+    img: "/ifms.png",
     iconLists: [""],
-    link: "",
+    link: "https://www.ifms.kerala.gov.in/",
   },
   {
     id: 5,

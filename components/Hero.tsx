@@ -39,7 +39,7 @@ function Hero() {
           />
 
           <div className="flex flex-row items-center space-x-4">
-            <Link href="#about">
+            <Link href="#projects">
               <MagicButton
                 title="Show my work"
                 icon={<FaLocationArrow />}

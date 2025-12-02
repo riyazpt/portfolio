@@ -143,10 +143,10 @@ export const projects = [
 export const workExperience = [
   {
     id: 1,
-    title: "Senior Full Stack Engineer",
+    title: "Senior Software Engineer",
     company: "Independent Contractor",
-    location: "Remote (Europe-based)",
-    desc: "Providing full-stack development support for a confidential client under strict NDA. Working on complex web applications using hybrid technology stack, developing new modules, optimizing performance, and integrating backend services.",
+    location: "Jobstoday.world (Remote Europe-based)",
+    desc: "Providing full-stack development support for the company. Working on complex web applications using hybrid technology stack, developing new modules, optimizing performance, and integrating backend services.",
     startDate: "March 2025",
     endDate: "Present",
     className: "md:col-span-2",
@@ -233,46 +233,46 @@ export const workExperience = [
 
 export const techStack = {
   languages: [
-    { name: "JavaScript", icon: "/ts.svg" },
-    { name: "PHP", icon: "/symfony-svgrepo-com.svg" },
+    { name: "JavaScript", icon: "/javascript.svg" },
+    { name: "PHP", icon: "/new-php-logo.svg" },
     { name: "TypeScript", icon: "/ts.svg" }
   ],
   backend: [
-    { name: "Laravel", icon: "/symfony-svgrepo-com.svg" },
+    { name: "Laravel", icon: "/laravel.svg" },
     { name: "Next.js", icon: "/next.svg" },
-    { name: "Node.js", icon: "/s.svg" },
+    { name: "Node.js", icon: "/nodejs.svg" },
     { name: "Express.js", icon: "/s.svg" }
   ],
   frontend: [
     { name: "React.js", icon: "/re.svg" },
     { name: "Next.js", icon: "/next.svg" },
-    { name: "Vue.js", icon: "/re.svg" },
-    { name: "HTML5", icon: "/re.svg" },
-    { name: "CSS3", icon: "/tail.svg" },
+    { name: "Vue.js", icon: "/vue.svg" },
+    { name: "HTML5", icon: "/html-5.svg" },
+    { name: "CSS3", icon: "/css3.svg" },
     { name: "Sass", icon: "/tail.svg" },
     { name: "Tailwind", icon: "/tail.svg" },
-    { name: "Bootstrap", icon: "/tail.svg" },
+    { name: "Bootstrap", icon: "/bootstrap.svg" },
     { name: "Redux", icon: "/re.svg" }
   ],
   database: [
-    { name: "MySQL", icon: "/s.svg" },
-    { name: "MongoDB", icon: "/s.svg" },
-    { name: "DB2", icon: "/s.svg" },
+    { name: "MySQL", icon: "/mysql.svg" },
+    { name: "MongoDB", icon: "/mongodb.svg" },
+    { name: "DB2", icon: "/ibm.svg" },
     { name: "PostgreSQL", icon: "/s.svg" },
-    { name: "Firebase", icon: "/s.svg" },
-    { name: "Redis", icon: "/s.svg" }
+    { name: "Firebase", icon: "/firebase.svg" },
+    { name: "Redis", icon: "/redis.svg" }
   ],
   devops: [
-    { name: "AWS", icon: "/s.svg" },
+    { name: "AWS", icon: "/aws.svg" },
     { name: "Docker", icon: "/dockerName.svg" },
     { name: "GitLab CI", icon: "/git.svg" },
     { name: "GitHub Actions", icon: "/git.svg" },
-    { name: "Apache", icon: "/s.svg" }
+    { name: "Apache", icon: "/apache.svg" }
   ],
   testing: [
-    { name: "Mocha", icon: "/s.svg" },
-    { name: "Chai", icon: "/s.svg" },
-    { name: "Cypress", icon: "/s.svg" },
+    { name: "Mocha", icon: "/mocha.svg" },
+    { name: "Chai", icon: "/mocha.svg" },
+    { name: "Cypress", icon: "/cypress.svg" },
     { name: "PHPUnit", icon: "/s.svg" }
   ],
   tools: [

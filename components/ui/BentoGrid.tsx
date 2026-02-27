@@ -120,36 +120,35 @@ export const BentoGridItem = ({
 
           {id === 2 && <GridGlobe />}
 
-          {/* Tech stack list div */}
           {id === 3 && (
-            <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
-              {/* tech stack lists */}
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-2">
-                {leftLists.map((item, i) => (
-                  <span
-                    key={i}
-                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
-                    lg:opacity-100 rounded-lg text-center bg-[#10132E]"
-                  >
-                    {item}
-                  </span>
-                ))}
-                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
-              </div>
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-2">
-                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
-                {rightLists.map((item, i) => (
-                  <span
-                    key={i}
-                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
-                    lg:opacity-100 rounded-lg text-center bg-[#10132E]"
-                  >
-                    {item}
-                  </span>
-                ))}
+            <div className="mt-4 md:mt-6 lg:mt-8 relative z-10">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+                <div>
+                  <div className="text-xs md:text-sm text-white-100 mb-2">Certifications</div>
+                  <div className="flex flex-wrap gap-2">
+                    <a href="https://www.credly.com/badges/bf183bae-2d92-4c6e-9a5b-f45d725f9680/linked_in_profile" target="_blank" rel="noopener noreferrer" className="px-3 py-1 rounded-full bg-[#10132E] text-white-100 text-xs md:text-sm hover:bg-[#151a3a] transition">
+                      AWS Certified Cloud Practitioner (CLF-C02)
+                    </a>
+                    <a href="https://www.linkedin.com/learning/certificates/c0d6df8578dadad44515869b2c50258f638be98b6f90d32d37de3725e3538b0c" target="_blank" rel="noopener noreferrer" className="px-3 py-1 rounded-full bg-[#10132E] text-white-100 text-xs md:text-sm hover:bg-[#151a3a] transition">
+                      Atlassian Agile Project Management
+                    </a>
+                    <a href="https://www.coursera.org/account/accomplishments/verify/2WQKCX9AKES6?utm_source=ln&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course " target="_blank" rel="noopener noreferrer" className="px-3 py-1 rounded-full bg-[#10132E] text-white-100 text-xs md:text-sm hover:bg-[#151a3a] transition">
+                      IBM Introduction to DevOps
+                    </a>
+                  </div>
+                </div>
+                <div>
+                  <div className="text-xs md:text-sm text-white-100 mb-2">Impact</div>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="px-3 py-1 rounded-full bg-[#10132E] text-white-100 text-xs md:text-sm">80% faster payroll (NIC)</span>
+                    <span className="px-3 py-1 rounded-full bg-[#10132E] text-white-100 text-xs md:text-sm">30% faster pages (Mideast)</span>
+                    <span className="px-3 py-1 rounded-full bg-[#10132E] text-white-100 text-xs md:text-sm">+15% revenue via automations (Sacoor)</span>
+                  </div>
+                </div>
               </div>
             </div>
           )}
+
           {id === 6 && (
             <div className="mt-5 relative">
               <div

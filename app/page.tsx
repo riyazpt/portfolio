@@ -3,6 +3,8 @@ import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
 import RecentPersonalProjects from "@/components/RecentPersonalProjects";
 import Experience from "@/components/Experience";
+import FeaturedCaseStudy from "@/components/FeaturedCaseStudy";
+import TechStack from "@/components/TechStack";
 import {FloatingNav} from "@/components/ui/FloatingNavBar";
 import Grid from "@/components/ui/Grid";
 import {navItems} from "@/data";
@@ -18,6 +20,8 @@ export default function Home() {
           <Hero />
         </BackgroundBeamsWithCollision>
         <Grid />
+        <TechStack />
+       
 
         <RecentProjects />
         <RecentPersonalProjects />

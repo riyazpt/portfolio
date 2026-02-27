@@ -34,12 +34,12 @@ function Hero() {
             Building and Scaling Modern Applications with Expertise
           </p>
           <TextGenerateEffect
-            words="Hi! I'm Riyaz, a Full-Stack Developer"
+            words="Hi! I'm Riyaz, a Senior Software Engineer"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
           <div className="flex flex-row items-center space-x-4">
-            <Link href="#about">
+            <Link href="#projects">
               <MagicButton
                 title="Show my work"
                 icon={<FaLocationArrow />}
